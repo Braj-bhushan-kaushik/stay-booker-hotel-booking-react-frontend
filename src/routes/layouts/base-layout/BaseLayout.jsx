@@ -1,3 +1,4 @@
+import Header from '../components/Header';
 import GlobalFooter from 'components/global-footer/GlobalFooter';
 import GlobalNavbar from 'components/global-navbar/GlobalNavbar';
 import { Outlet } from 'react-router-dom';
