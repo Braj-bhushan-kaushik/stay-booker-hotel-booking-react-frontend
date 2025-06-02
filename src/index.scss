@@ -11,3 +11,15 @@
 @import './components/global-navbar/global-navbar.scss';
 @import './components/ux/input/input.scss';
 @import './components/ux/data-range-picker/date-range-picker.scss';
+/* Custom theme colors */
+:root {
+  --primary-dark: #1a0e10;
+  --accent-maroon: #800000;
+  --accent-gold: #d4af37;
+}
+
+body {
+  background-color: var(--primary-dark);
+  color: white;
+  font-family: 'Segoe UI', sans-serif;
+}
