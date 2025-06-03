@@ -13,6 +13,7 @@ import ScrollToTop from 'components/scroll-to-top/ScrollToTop';
 const BaseLayout = () => {
   return (
     <>
+      <Header />
       <GlobalNavbar />
       <ScrollToTop />
       <Outlet />
